@@ -1,0 +1,7 @@
+    1: <main class="main">
+    2:   <div class="inner">
+    3:       <div class="greeting" >
+    4:         <%= こんにちは  %>
+    5:          <%= link_to "ユーザー名さん", root_path, class: :greeting__link%>
+    6:        </div>
+    7:     <div class="card__wrapper">
